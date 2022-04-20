@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+.scroll-icon {
+    transform: translate(-50%, 0%);
+    animation: fade_move_down 2s ease-in-out infinite;
+}
+
+#scroll {
+    bottom: 5vh;
+    position: absolute;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+    
+}
+
+.container {
+    max-width: 1024px;
+}
